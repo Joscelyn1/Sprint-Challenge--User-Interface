@@ -90,9 +90,9 @@ header {
 
 .firstRow {
     display: flex;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     align-items: flex-end;
-    padding-top: 5%;
+    padding-top: 2%;
 
 
 
@@ -112,6 +112,9 @@ header {
 .secondRow {
     display: flex;
     justify-content: space-around;
+
+    margin: 2%;
+    padding: 2%;
 
 }
 
@@ -203,13 +206,91 @@ header {
     background: dodgerblue;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+    width: 800px;
+    margin: 0 auto;
+    align-items: flex-end;
+}
+
+button {
+    padding: 2% 10% 2% 10%;
+    margin-top: 4%;
+    text-align: center;
+    background: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 12pt;
+}
+
+
+.articleRow1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2%;
+    padding: 3%;
+}
+
+
+.articleRow2 {
+    display: flex;
+    margin: 2%;
+    padding: 3%;
+    justify-content: space-between;
+    border-top: 2px dashed black;
 
 
 
+}
+
+.articleRow2Column1 {
+    justify-content: space-around;
+    margin-right: 2%;
+    border-bottom: 2px dashed black;
+    padding-bottom: 2%;
+
+}
+
+.articleRow2Column2 {
+    justify-content: space-around;
+    margin-left: 2%;
+    border-bottom: 2px dashed black;
+    padding-bottom: 2%;
+
+}
+
+.articleRow3 {
+    display: flex;
+    margin: 2%;
+    padding: 3%;
+    justify-content: space-between;
 
 
+}
 
+.articleRow3Column1 {
+    justify-content: space-around;
+    margin-right: 2%;
+    border-bottom: 2px dashed black;
+    padding-bottom: 2%;
 
+}
+
+.articleRow3Column2 {
+    justify-content: space-around;
+    margin-left: 2%;
+    padding-bottom: 2%;
+    border-bottom: 2px dashed black;
+}
+
+.articleRow4 {
+    justify-content: space-around;
+    margin-left: 2%;
+    padding-bottom: 2%;
+}
 
 
 
