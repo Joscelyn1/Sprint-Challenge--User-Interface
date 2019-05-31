@@ -311,6 +311,31 @@ button {
     padding-right: 0;
 }
 
+.productExamplesContainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.productExamplesText {
+    width: 80%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+
+
+}
+
+.productTitle {
+    text-align: center;
+}
+
+.boxMiddle {
+    border-top: 2px dashed black;
+    padding-top: 12px;
+    border-bottom: 2px dashed black;
+}
+
 footer {
     width: 100%;
     background: black;

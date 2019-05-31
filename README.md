@@ -74,7 +74,7 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [x box1: `teal`
+* [x] box1: `teal`
 * [x] box2: `gold`
 * [x] box3: `cadetblue`
 * [x] box4: `coral`
