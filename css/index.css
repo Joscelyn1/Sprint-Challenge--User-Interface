@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,6 +66,59 @@ p {
     line-height: 1.4;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+    padding-right: 11%;
+    padding-left: 7%;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 3%;
+    width: 800px;
+    margin: 0 auto;
+
+
+
+}
+
+
+
+.firstRow {
+    display: flex;
+    padding-bottom: 2%;
+    align-items: flex-end;
+    padding-top: 2%;
+
+
+
+}
+
+.firstRowNav {
+    display: flex;
+    align-items: flex-end;
+
+}
+.firstRowColumn2 {
+    display: flex;
+}
+
+
+
+.secondRow {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 2%;
+    padding: 2%;
+
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -82,7 +135,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,13 +157,145 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+    width: 800px;
+    margin: 0 auto;
+    align-items: flex-end;
+}
+
+button {
+    padding: 2% 10% 2% 10%;
+    margin-top: 4%;
+    text-align: center;
+    background: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 12pt;
+}
+
+
+.articleRow1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2%;
+    padding: 3%;
+}
+
+
+.articleRow2 {
+    display: flex;
+    margin: 2%;
+    padding: 3%;
+    justify-content: space-between;
+    border-top: 2px dashed black;
+
+
+
+}
+
+.articleRow2Column1 {
+    justify-content: space-around;
+    margin-right: 2%;
+    border-bottom: 2px dashed black;
+    padding-bottom: 2%;
+
+}
+
+.articleRow2Column2 {
+    justify-content: space-around;
+    margin-left: 2%;
+    border-bottom: 2px dashed black;
+    padding-bottom: 2%;
+
+}
+
+.articleRow3 {
+    display: flex;
+    margin: 2%;
+    padding: 3%;
+    justify-content: space-between;
+
+
+}
+
+.articleRow3Column1 {
+    justify-content: space-around;
+    margin-right: 2%;
+    border-bottom: 2px dashed black;
+    padding-bottom: 2%;
+
+}
+
+.articleRow3Column2 {
+    justify-content: space-around;
+    margin-left: 2%;
+    padding-bottom: 2%;
+    border-bottom: 2px dashed black;
+}
+
+.articleRow4 {
+    justify-content: space-around;
+    margin-left: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+
+
 
 .bottom-content {
     display: flex;
